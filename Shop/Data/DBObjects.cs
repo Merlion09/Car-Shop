@@ -116,7 +116,19 @@ namespace Shop.Data
                         isFavourite = true,
                         available = false,
                         Category = Categories["Класичні автомобілі"]
+                    },
+                    new Car()
+                    {
+                        name = "BMW M5",
+                        shortDesc = "Директор",
+                        longDesc = "Дуже швидктй і зручний автомобіль",
+                        img = "/img/BMW M5.jpg",
+                        price = 65000,
+                        isFavourite = true,
+                        available = false,
+                        Category = Categories["Класичні автомобілі"]
                     }
+
                 );
             }
 
@@ -133,7 +145,7 @@ namespace Shop.Data
                     var list = new Category[]
                     {
                          new Category { categoryName = "Електромобілі", desc = "Сучасний вид транспорту"},
-                         new Category { categoryName = "Класичні автомобілі", desc = "Машини з двигуном швидкого згорання"}
+                         new Category { categoryName = "Класичні автомобілі", desc = "Машини з двигуном внутрішнього згорання"}
                     };
 
                     category = new Dictionary<string, Category>();
