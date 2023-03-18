@@ -55,7 +55,7 @@ namespace Shop.Data
                     {
                         name = "Mercedes C class",
                         shortDesc = "Зручний і великий",
-                        longDesc = "Класне авто щоб повимахуватись",
+                        longDesc = "Класне авто в задоволення",
                         img = "/img/MercC.jpg",
                         price = 40000,
                         isFavourite = true,
